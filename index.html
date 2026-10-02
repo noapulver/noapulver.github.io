@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noa Pulver</title>
+<meta name="description" content="Noa Pulver: McGill student in English – Cultural Studies and Economics, with experience in sales, customer service and data entry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fog:#EAF0F0; --paper:#F7FAFA; --ink:#12262B; --muted:#4F6569;
+  --spruce:#1F5A4B; --lake:#2C6E9B; --rule:#C5D3D4;
+  --head:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fog);color:var(--ink);font:400 1.125rem/1.65 var(--body)}
+a{color:var(--lake);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--lake);outline-offset:3px;border-radius:2px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+
+/* Hero */
+header{position:relative;padding:5rem 0 0;overflow:hidden;background:var(--paper)}
+header .wrap{position:relative;z-index:1}
+nav{display:flex;gap:1.5rem;flex-wrap:wrap;font:600 .95rem var(--head);margin-bottom:5rem}
+nav a{color:var(--ink);text-decoration:none}
+nav a:hover{color:var(--spruce);text-decoration:underline}
+h1{font:800 clamp(3.5rem,13vw,9rem)/.9 var(--head);letter-spacing:-.04em;margin:0 0 1.5rem;color:var(--spruce)}
+.lede{max-width:34rem;font-size:1.35rem;line-height:1.5;margin:0 0 2rem}
+.cta{display:inline-block;font:600 1rem var(--head);background:var(--ink);color:var(--paper);padding:.8rem 1.4rem;border-radius:999px;text-decoration:none}
+.cta:hover{background:var(--spruce)}
+.cta:focus-visible{outline:3px solid var(--lake);outline-offset:3px}
+.ridge{display:block;width:100%;height:auto;margin-top:2rem}
+.ridge path.far{fill:var(--rule)}
+.ridge path.near{fill:var(--fog)}
+.ridge path.line{fill:none;stroke:var(--spruce);stroke-width:2;vector-effect:non-scaling-stroke;stroke-dasharray:2400;stroke-dashoffset:2400;animation:draw 2.4s ease-out .3s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.ridge path.line{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+
+/* Sections */
+section{padding:4rem 0;border-top:1px solid var(--rule)}
+header + section{border-top:0}
+.grid{display:grid;grid-template-columns:12rem 1fr;gap:1rem 3rem}
+h2{font:600 1.5rem/1.2 var(--head);margin:0;letter-spacing:-.01em}
+.entry{margin:0 0 2.5rem}
+.entry:last-child{margin-bottom:0}
+.entry h3{font:600 1.2rem/1.3 var(--head);margin:0}
+.meta{font:400 1rem var(--head);color:var(--muted);margin:.15rem 0 .6rem}
+ul{margin:0;padding-left:1.1rem}
+li{margin:.3rem 0;max-width:42rem}
+li::marker{color:var(--spruce)}
+p{margin:0 0 1rem;max-width:42rem}
+.tags{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.tags li{margin:0;font:400 .95rem var(--head);border:1px solid var(--spruce);color:var(--spruce);padding:.25rem .8rem;border-radius:999px}
+.contact a{font:600 clamp(1.4rem,4vw,2.2rem) var(--head);letter-spacing:-.02em}
+footer{padding:2rem 0 3rem;color:var(--muted);font:400 .9rem var(--head);border-top:1px solid var(--rule)}
+
+@media (max-width:720px){
+  .grid{grid-template-columns:1fr}
+  header{padding-top:2.5rem}
+  nav{margin-bottom:3rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#community">Community</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <h1>Noa Pulver</h1>
+    <p class="lede">Student at McGill studying English – Cultural Studies and Economics. From Vancouver, with a background in sales, customer service and team sports.</p>
+    <a class="cta" href="#contact">Get in touch</a>
+  </div>
+  <svg class="ridge" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path class="far" d="M0 220V120l110-60 90 50 120-80 130 90 110-40 140 70 120-100 150 110 130-60 140 80 100-50 100 60V220z"/>
+    <path class="near" d="M0 220V160l140-50 120 60 140-70 160 80 120-40 150 60 140-90 130 70 140-40 100 50V220z"/>
+    <path class="line" d="M0 120l110-60 90 50 120-80 130 90 110-40 140 70 120-100 150 110 130-60 140 80 100-50 100 60"/>
+  </svg>
+</header>
+
+<main>
+<section id="about">
+  <div class="wrap grid">
+    <h2>About</h2>
+    <div>
+      <p>I'm a third-year student at McGill University in Montreal, majoring in English – Cultural Studies with a minor in Economics.</p>
+      <p>I grew up in Vancouver, where I captained my high school varsity soccer team and played field hockey for eight years with the Vancouver Hawks. Outside of school and sport, I work in customer-facing roles: retail, door-to-door sales, and cash handling.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap grid">
+    <h2>Experience</h2>
+    <div>
+      <div class="entry">
+        <h3>Sales Associate, Cottage Toys</h3>
+        <p class="meta">July – August 2024</p>
+        <ul>
+          <li>Recommended water sports and boating gear to match each customer's needs.</li>
+          <li>Learned the equipment in depth and explained features, usage and maintenance.</li>
+          <li>Tracked stock levels, restocked merchandise and kept inventory records accurate.</li>
+          <li>Processed transactions and returns.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Sales &amp; Marketing Representative, Scholars Edge Painting</h3>
+        <p class="meta">May – July 2024</p>
+        <ul>
+          <li>Built and maintained client relationships by addressing concerns and promoting the company's services.</li>
+          <li>Explained painting services to homeowners and proposed solutions that fit their projects.</li>
+          <li>Sold door to door, with high conversion rates and growing sales toward targets.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Cashier, IGA</h3>
+        <p class="meta">August 2022 – March 2023</p>
+        <ul>
+          <li>Handled cash transactions, refunds, discounts and coupons accurately and efficiently.</li>
+          <li>Answered questions and resolved customer concerns clearly and calmly.</li>
+          <li>Operated the register and related systems.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Data Entry Assistant, Paige Kraft Real Estate</h3>
+        <p class="meta">June 2021 – June 2024</p>
+        <ul>
+          <li>Reviewed business cards collected from real estate agents and sorted them for relevance.</li>
+          <li>Entered contact details into a customer relationship management (CRM) database.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap grid">
+    <h2>Education</h2>
+    <div>
+      <div class="entry">
+        <h3>McGill University</h3>
+        <p class="meta">Bachelor of Arts, Montreal, QC. August 2023 – May 2027</p>
+        <ul>
+          <li>Major in English – Cultural Studies</li>
+          <li>Minor in Economics</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>West Point Grey Academy</h3>
+        <p class="meta">Vancouver, BC. Graduated June 2023</p>
+        <ul>
+          <li>Honor Roll student</li>
+          <li>Varsity soccer, basketball, track and field, and ski</li>
+          <li>Captain of the varsity soccer team</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="community">
+  <div class="wrap grid">
+    <h2>Community</h2>
+    <div>
+      <div class="entry">
+        <h3>Assistant Uniform Coordinator, Dunbar Little League</h3>
+        <p class="meta">March 2017 – March 2020</p>
+        <ul>
+          <li>Helped assemble and hand out uniform packages for every team.</li>
+          <li>Handled questions from coaches and managers, and passed larger issues to the Uniform Coordinator.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Adoption Day Volunteer, Thank Dog I Am Out Rescue Society</h3>
+        <p class="meta">2016 and 2018</p>
+        <ul>
+          <li>Kept the dogs' areas calm and comfortable.</li>
+          <li>Helped make adoption days a positive experience for the dogs and the families adopting them.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap grid">
+    <h2>Skills, interests and certifications</h2>
+    <div>
+      <div class="entry">
+        <h3>Skills</h3>
+        <ul class="tags">
+          <li>POS systems</li><li>Cash handling</li><li>CRM data entry</li><li>Basic troubleshooting</li><li>Inventory management</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Interests</h3>
+        <ul>
+          <li><strong>Field hockey.</strong> Eight years with the Vancouver Hawks Field Hockey Club, playing on several teams each season across age groups.</li>
+          <li><strong>Camping and the outdoors.</strong> Wilderness programs, hiking, skiing and mountain biking.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Canadian Boating License, Transport Canada</li>
+          <li>Coast Wilderness Medical Training: Backcountry Emergencies</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap grid">
+    <h2>Contact</h2>
+    <div>
+      <p>The best way to reach me is by email. References are available on request.</p>
+      <a href="mailto:noa.pulver@icloud.com">noa.pulver@icloud.com</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Noa Pulver</div>
+</footer>
+
+</body>
+</html>
